@@ -11,6 +11,7 @@ Pasos para arrancar el proyecto
 3) Abrir la carpeta del proyecto con Visual Studio Code, ir a la carpeta src/environments y crear el archivo environment.ts 
 4) Dentro del archivo environment.ts escribir el siguiente codigo y llenarlo con las respectivas claves del proyecto Firestore
   
+```ts
   export const environment = {
   production: false,
   firebase: {
@@ -23,6 +24,8 @@ Pasos para arrancar el proyecto
     measurementId: ""
   }
 };
+
+```
 
 5) Abrir una terminal con ctrl+shift+ñ y moverse a la carpeta client con el comando: cd client
 6) En la ruta de la carpeta client escribir el comando: npm install
