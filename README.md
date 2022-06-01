@@ -25,7 +25,7 @@ Pasos para arrancar el proyecto
 };
 
 5) Abrir una terminal con ctrl+shift+ñ y moverse a la carpeta client con el comando: cd client
-6) Dentro de la carpeta client escribir el comando: npm install
-7) Dentro de la carpeta client arrancar el servidor de Angular con el comando: ng serve
+6) En la ruta de la carpeta client escribir el comando: npm install
+7) En la ruta de la carpeta client arrancar el servidor de Angular con el comando: ng serve
 8) Abrir el navegador Chrome y en la barra de direcciones escribir http://localhost:4200/
 9) Agregar productos a la base de datos
